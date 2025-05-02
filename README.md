@@ -10,12 +10,12 @@ The transmit beamforming,  pinching beamforming (i.e., discrete activated locati
 - **Near-optimal beamforming algorithms for PASS based on many-to-many matching theory**:The proposed welfare-driven many-to-many matching algorithms are implemented in [Matching.m](Matching.m) for multi-user scenario and [Matching_SU.m](Matching_SU.m) for single-user scenario.
 
 ## Code Reproduction Guideline
-- Transmit power under different numbers of per-waveguide pinching antennas $L$
+- Test transmit power under different numbers of per-waveguide pinching antennas $L$
   - Run [main_L.m](main_L.m)
-- Transmit power under spacial ranges $S_{x}$
+- Test transmit power under different spacial ranges $S_{x}$
   - Run [main_S.m](main_S.m)
   - For comparison with continuous architecture, further run [main_continuous.m](main_continuous.m)
-- Transmit power under differnet minimum SINR requirements $\gamma_{\min}$
+- Test transmit power under differnet minimum SINR requirements $\gamma_{\min}$
   - Single-user scenario: [main_SU_gamma_min.m](main_SU_gamma_min.m)
   - Multi-user scenario: [main_MU_gamma_min.m](main_MU_gamma_min.m)
   > Since these scripts perform the BnB algorithm, it takes about 5-8 hours to complete the calculations.
