@@ -1,11 +1,15 @@
 # Pinching-Antenna Systems (PASS): Power Radiation Model and Optimal Beamforming Design
 This is code repository for our recent paper "Pinching-Antenna Systems (PASS): Power Radiation Model and Optimal Beamforming Design" [(https://arxiv.org/abs/2505.00218)](https://arxiv.org/abs/2505.00218)
 
+A pinching-antenna systems (PASS) relying on practical discrete activation is considered. Moreover, we propose a novel adjustable power radiation model, and derive the closed-form waveguide-antenna spacing to achieve the commonly assumed equal-power radiation.
+
+The transmit beamforming,  pinching beamforming (i.e., discrete activated locations of pinching antennas), and the numbers of activated antennas along all the waveguides are jointly optimzed. 
+
+## This repository contains: 
+- **Globaly optimal beamforming algorithms for PASS**: The proposed BnB algorithms are implemented in [BnB_SU.m](BnB_SU.m) for single-user scenario and [BnB.m](BnB.m) for multi-user scenario.
+- **Near-optimal beamforming algorithms for PASS based on many-to-many matching theory**:The proposed welfare-driven many-to-many matching algorithms are implemented in [Matching.m](Matching.m) for multi-user scenario and [Matching_SU.m](Matching_SU.m) for single-user scenario.
+
 ## Code Reproduction Guideline
-### Structure
-- The proposed BnB algorithms are implemented in [BnB_SU.m](BnB_SU.m) for single-user scenario and [BnB.m](BnB.m) for multi-user scenario.
-- The proposed welfare-driven many-to-many matching algorithms are implemented in [Matching.m](Matching.m) for multi-user scenario and [Matching_SU.m](Matching_SU.m) for single-user scenario.
-### Workflow
 - Transmit power under different numbers of per-waveguide pinching antennas $L$
   - Run [main_L.m](main_L.m)
 - Transmit power under spacial ranges $S_{x}$
