@@ -6,7 +6,7 @@ A pinching-antenna systems (PASS) relying on practical discrete activation is co
 The transmit beamforming,  pinching beamforming (i.e., discrete activated locations of pinching antennas), and the numbers of activated antennas along all the waveguides are jointly optimzed. 
 
 ## This repository contains: 
-- **Globaly optimal beamforming algorithms for PASS**: The proposed BnB algorithms are implemented in [BnB_SU.m](BnB_SU.m) for single-user scenario and [BnB.m](BnB.m) for multi-user scenario.
+- **Globally optimal beamforming algorithms for PASS**: The proposed BnB algorithms are implemented in [BnB_SU.m](BnB_SU.m) for single-user scenario and [BnB.m](BnB.m) for multi-user scenario.
 - **Near-optimal beamforming algorithms for PASS based on many-to-many matching theory**:The proposed welfare-driven many-to-many matching algorithms are implemented in [Matching.m](Matching.m) for multi-user scenario and [Matching_SU.m](Matching_SU.m) for single-user scenario.
 
 ## Code Reproduction Guideline
