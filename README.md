@@ -1,9 +1,11 @@
 # Pinching-Antenna Systems (PASS): Power Radiation Model and Optimal Beamforming Design
 This is code repository for our recent paper "Pinching-Antenna Systems (PASS): Power Radiation Model and Optimal Beamforming Design" [(https://arxiv.org/abs/2505.00218)](https://arxiv.org/abs/2505.00218)
 
-A pinching-antenna systems (PASS) relying on practical discrete activation is considered. Moreover, we propose a novel adjustable power radiation model, and derive the closed-form waveguide-antenna spacing to achieve the commonly assumed equal-power radiation.
+A pinching antenna system (PASS) relying on practical discrete activation is considered. We propose a novel adjustable power radiation model. It achieves the commonly assumed equal-power radiation by flexibly tuning waveguide-antenna spacing, without modifying the fabricated lengths of pinching antennas.
 
-The transmit beamforming,  pinching beamforming (i.e., discrete activated locations of pinching antennas), and the numbers of activated antennas along all the waveguides are jointly optimzed. 
+The transmit beamforming,  pinching beamforming (i.e., discrete activated locations of pinching antennas), and the numbers of activated antennas along  waveguides are jointly optimzed. 
+
+We propose **the first globally optimal** joint pinching beamforming and digital beamforming algorithm. Then, a **low-complexity near-optimal** matching-based algorithm is also developed.
 
 ## This repository contains: 
 - **Globally optimal beamforming algorithms for PASS**: The proposed BnB algorithms are implemented in [BnB_SU.m](BnB_SU.m) for single-user scenario and [BnB.m](BnB.m) for multi-user scenario.
