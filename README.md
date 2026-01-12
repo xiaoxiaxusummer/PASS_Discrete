@@ -1,5 +1,5 @@
 # Pinching-Antenna Systems (PASS): Power Radiation Model and Optimal Beamforming Design
-This is code repository for our recent paper "Pinching-Antenna Systems (PASS): Power Radiation Model and Optimal Beamforming Design" [(https://arxiv.org/abs/2505.00218)](https://arxiv.org/abs/2505.00218)
+This is code repository for our recent paper "Pinching-Antenna Systems (PASS): Power Radiation Model and Optimal Beamforming Design" accepted by IEEE Transactions on Communications (TCOM) [(https://ieeexplore.ieee.org/document/11263923)](https://ieeexplore.ieee.org/document/11263923).
 
 A pinching antenna system (PASS) relying on practical discrete activation is considered. We propose a novel adjustable power radiation model. It achieves the commonly assumed equal-power radiation by flexibly tuning waveguide-antenna spacing, without modifying the fabricated lengths of pinching antennas.
 
@@ -25,4 +25,4 @@ We propose **the first globally optimal** joint pinching beamforming and digital
 
 ## Reference
 If you find this code useful for your research, please consider citing 
-> X. Xu, X. Mu, Z. Wang, Y. Liu, and A. Nallanathan, ``Pinching-Antenna Systems (PASS): Power Radiation Model and Optimal Beamforming Design'', *arXiv preprint, arXiv:2505.00218*, 2025.
+> X. Xu, X. Mu, Z. Wang, Y. Liu, and A. Nallanathan, ``Pinching-Antenna Systems (PASS): Power Radiation Model and Optimal Beamforming Design'', *IEEE Trans. Commun.*, early access, 2026.
